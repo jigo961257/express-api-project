@@ -18,6 +18,6 @@ app.get("/api", (req, res) => {
     })
 })
 
-app.listen(process.env.APP_PORT || 4000, () => {
+app.listen(process.env.PORT || 4000, () => {
     console.log("server is running well " + process.env.APP_PORT);
 })
